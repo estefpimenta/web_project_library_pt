@@ -133,10 +133,23 @@
   width: 360px;
   height: 420px;
   background-color: #fff;
-  color: #000;
   border-radius: 5px;
   box-sizing: border-box;
   padding: 20px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card__title {
+ color: #000;
+}
+
+.card__text {
+  color: #000;
 }
 
 .card__footer {
