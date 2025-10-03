@@ -311,11 +311,15 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Adicione estilos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .step {
-  /* Adicione estilos */
+  width: 220px;
+  flex-basis: auto;
 }
 
 .step__title {
